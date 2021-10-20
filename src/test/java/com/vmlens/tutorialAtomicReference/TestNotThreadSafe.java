@@ -2,8 +2,11 @@ package com.vmlens.tutorialAtomicReference;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
+
+//import com.vmlens.api.AllInterleavings;
 import com.vmlens.tutorialAtomicReference.UpdateStateNotThreadSafe;
 import com.vmlens.api.AllInterleavings;
+
 public class TestNotThreadSafe {
 	@Test
 	public void test() throws InterruptedException {
